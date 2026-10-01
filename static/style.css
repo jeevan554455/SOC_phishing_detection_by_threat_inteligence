@@ -1,0 +1,11 @@
+:root{font-family:Segoe UI,Arial,sans-serif;color:#e9f2ff;background:#06101c}
+*{box-sizing:border-box}body{margin:0;background:radial-gradient(circle at top,#122844,#06101c 55%,#03070d);min-height:100vh}
+header{padding:32px max(20px,calc((100% - 1100px)/2));display:flex;justify-content:space-between;gap:20px;align-items:center;border-bottom:1px solid #23415f;background:#0a1829}
+header small{color:#59c8ff;font-weight:800;letter-spacing:2px}header h1{margin:8px 0 5px;font-size:31px}header p{margin:0;color:#93abc4}header b{border:1px solid #2e91bd;border-radius:99px;padding:9px 13px;color:#6dd8ff;font-size:12px}
+main{max-width:1100px;margin:28px auto;padding:0 18px}.panel{background:#0b1a2b;border:1px solid #21405e;border-radius:16px;padding:22px;margin-bottom:20px;box-shadow:0 15px 35px #0004}
+textarea{width:100%;min-height:190px;background:#050d17;color:#edf6ff;border:1px solid #2b4b6b;border-radius:12px;padding:15px;font:14px Consolas,monospace;resize:vertical}
+button{margin-top:14px;padding:12px 22px;border:0;border-radius:10px;background:#24a6e6;color:#fff;font-weight:800;cursor:pointer}#status{margin-left:12px;color:#9bb1c8}
+.cards{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-bottom:20px}.cards>div{background:#0b1a2b;border:1px solid #21405e;border-radius:14px;padding:18px}.cards small{display:block;color:#829ab2}.cards strong{display:block;margin-top:7px;font-size:23px}
+.iocgrid{display:grid;grid-template-columns:repeat(2,1fr);gap:12px}.ioc{background:#06111e;border:1px solid #1e3b58;border-radius:12px;padding:13px}.ioc h3{margin:0 0 8px;color:#69d4ff;font-size:14px}.ioc div{word-break:break-all;margin:5px 0;color:#cdd9e8}
+.vtrow{display:flex;justify-content:space-between;border-bottom:1px solid #1d354d;padding:10px 0;gap:10px}.bad{color:#ff7180}.warn{color:#ffd166}.good{color:#63e6a1}.flow{color:#9ec3df;border:1px solid #254765;border-radius:999px;padding:10px;text-align:center}.hidden{display:none}
+@media(max-width:760px){.cards{grid-template-columns:repeat(2,1fr)}.iocgrid{grid-template-columns:1fr}header{flex-direction:column;align-items:flex-start}}

@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>SOC Project 2 — Phishing Threat Intelligence</title>
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+<header>
+  <div>
+    <small>SOC / BLUE TEAM PROJECT</small>
+    <h1>Phishing Threat Intelligence Analyzer</h1>
+    <p>IOC extraction • Explainable triage • Optional VirusTotal enrichment</p>
+  </div>
+  <b>SAFE LAB</b>
+</header>
+
+<main>
+<section class="panel">
+<h2>Paste an email or alert</h2>
+<textarea id="input" placeholder="Example: Urgent account verification required. https://paypa1-security.example/verify 185.10.20.30 Invoice_2026.zip"></textarea>
+<button id="analyze">Analyze</button><span id="status"></span>
+</section>
+
+<section id="results" class="hidden">
+<div class="cards">
+  <div><small>VERDICT</small><strong id="verdict">—</strong></div>
+  <div><small>SEVERITY</small><strong id="severity">—</strong></div>
+  <div><small>RISK SCORE</small><strong id="score">—</strong></div>
+  <div><small>IOC COUNT</small><strong id="count">—</strong></div>
+</div>
+
+<section class="panel"><h2>Detection reasoning</h2><ul id="signals"></ul></section>
+<section class="panel"><h2>Extracted IOCs</h2><div id="iocs" class="iocgrid"></div></section>
+<section class="panel"><h2>VirusTotal reputation</h2><div id="vt"></div></section>
+<section class="panel"><h2>SOC analyst conclusion</h2><p id="conclusion"></p>
+<div class="flow">Detect → Validate → Investigate → Escalate/Contain → Document</div></section>
+</section>
+</main>
+<script src="{{ url_for('static', filename='app.js') }}"></script>
+</body>
+</html>

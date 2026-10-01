@@ -1,0 +1,7 @@
+Subject: Urgent Account Verification
+
+Your account requires verification immediately. Please verify your account within 24 hours:
+https://paypa1-security.example/verify
+
+IP: 185.10.20.30
+Attachment: Invoice_2026.zip
