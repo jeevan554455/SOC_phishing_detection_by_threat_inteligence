@@ -1,0 +1,1 @@
+# SOC_phishing_detection_by_threat_inteligence
