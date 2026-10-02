@@ -3,7 +3,7 @@
 screenshots here:
 - `01-virustotal-file.png` — training-file VirusTotal result
 Also capture:
-- `01-local-dashboard.png` — this upgraded application's result page.
+- `02-local-dashboard.png` — this upgraded application's result page.
 
 
 <img width="1920" height="1020" alt="Screenshot 2026-10-02 132248" src="https://github.com/user-attachments/assets/d72983e3-7778-406e-9499-eaa20788fc49" />
