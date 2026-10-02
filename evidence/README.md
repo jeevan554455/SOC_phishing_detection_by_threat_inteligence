@@ -1,6 +1,6 @@
 # Evidence
 
-Put the supplied screenshots here:
+screenshots here:
 - `02-virustotal-file.png` — training-file VirusTotal result
 - `03-virustotal-ip.png` — IP VirusTotal result
 
